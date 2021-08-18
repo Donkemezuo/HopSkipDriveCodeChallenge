@@ -18,6 +18,7 @@ When the driver clicks a ride, it navigates to a detail view which shows the fol
  - Apple's UIKit Frameworks like 
     - UITableView 
     - Mapkit 
+    - JSONDecoder 
  - UI is built programmatically 
 
 See images below; 
