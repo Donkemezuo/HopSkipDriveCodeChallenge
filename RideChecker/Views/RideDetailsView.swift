@@ -306,6 +306,8 @@ class RideDetailsView: UIView {
         let endingLocationAnnotation = MKPointAnnotation()
         startingLocationAnnotation.coordinate = viewModel.startingLocationCoordinates
         endingLocationAnnotation.coordinate = viewModel.destinationLocationCoordinates
+        startingLocationAnnotation.title = "Pick up"
+        endingLocationAnnotation.title = "Drop Off"
         mapView.showAnnotations([startingLocationAnnotation, endingLocationAnnotation], animated: true)
     }
     
@@ -483,17 +485,9 @@ class RideDetailsView: UIView {
 
 extension RideDetailsView: MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
-        if overlay is MKCircleRenderer {
-            let circle = MKCircleRenderer(overlay: overlay)
-            circle.strokeColor = UIColor.red
-            circle.fillColor = UIColor(red: 255, green: 0, blue: 0, alpha: 0.1)
-            circle.lineWidth = 1
-            return circle
-        } else {
-            let renderer = MKPolylineRenderer(overlay: overlay)
-            renderer.strokeColor = .systemBlue
-            renderer.lineWidth = 6.0
-            return renderer
-        }
+        let renderer = MKPolylineRenderer(overlay: overlay)
+        renderer.strokeColor = .systemBlue
+        renderer.lineWidth = 6.0
+        return renderer
     }
 }
