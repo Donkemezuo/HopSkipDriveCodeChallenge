@@ -14,6 +14,11 @@ When the driver clicks a ride, it navigates to a detail view which shows the fol
 4. The duration of the trip in minutes 
 5. etc 
 
+ Technologies Used 
+ - Apple's UIKit Frameworks like 
+    - UITableView 
+    - Mapkit 
+ - UI is built programmatically 
 
 See images below; 
 ![Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-17 at 21 09 41](https://user-images.githubusercontent.com/43887215/129825383-65b0a3ab-d3fa-442c-bd0a-d9f89f28e888.png)
