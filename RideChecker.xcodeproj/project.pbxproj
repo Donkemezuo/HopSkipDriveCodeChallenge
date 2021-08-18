@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F02C370C26CC8DF90008836C /* AddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02C370B26CC8DF90008836C /* AddressCell.swift */; };
 		F038C91C26C623E000AA1CB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F038C91B26C623E000AA1CB3 /* AppDelegate.swift */; };
 		F038C91E26C623E000AA1CB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F038C91D26C623E000AA1CB3 /* SceneDelegate.swift */; };
 		F038C92526C623E500AA1CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F038C92426C623E500AA1CB3 /* Assets.xcassets */; };
 		F038C92826C623E500AA1CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F038C92626C623E500AA1CB3 /* LaunchScreen.storyboard */; };
 		F038C93326C6268100AA1CB3 /* RidesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F038C93226C6268100AA1CB3 /* RidesListViewController.swift */; };
+		F038C93B26C62E3C00AA1CB3 /* RideCheckerApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F038C93A26C62E3C00AA1CB3 /* RideCheckerApiClient.swift */; };
+		F038C94026C631E800AA1CB3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F038C93F26C631E800AA1CB3 /* DataManager.swift */; };
+		F038C94326C6330300AA1CB3 /* RidesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F038C94226C6330300AA1CB3 /* RidesDataModel.swift */; };
+		F038C94726C63CC800AA1CB3 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F038C94626C63CC800AA1CB3 /* StringExtensions.swift */; };
+		F039C91726CB678B00193D1C /* WayPointTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F039C91626CB678B00193D1C /* WayPointTableViewCell.swift */; };
+		F039C91A26CB6AE400193D1C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F039C91926CB6AE400193D1C /* UIView+Extension.swift */; };
+		F08CC31226C83B7F00DF5530 /* RidesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08CC31126C83B7F00DF5530 /* RidesListView.swift */; };
+		F08CC31626C8428300DF5530 /* RidesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08CC31526C8428300DF5530 /* RidesTableViewCell.swift */; };
+		F08CC31B26C84CF500DF5530 /* RidesTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08CC31A26C84CF500DF5530 /* RidesTableViewHeaderView.swift */; };
+		F08CC32226C991B900DF5530 /* RideDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08CC32126C991B900DF5530 /* RideDetailsView.swift */; };
+		F08CC32526C991D600DF5530 /* RideDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08CC32426C991D600DF5530 /* RideDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F02C370B26CC8DF90008836C /* AddressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressCell.swift; sourceTree = "<group>"; };
 		F038C91826C623E000AA1CB3 /* RideChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F038C91B26C623E000AA1CB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F038C91D26C623E000AA1CB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +35,17 @@
 		F038C92726C623E500AA1CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F038C92926C623E500AA1CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F038C93226C6268100AA1CB3 /* RidesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesListViewController.swift; sourceTree = "<group>"; };
+		F038C93A26C62E3C00AA1CB3 /* RideCheckerApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideCheckerApiClient.swift; sourceTree = "<group>"; };
+		F038C93F26C631E800AA1CB3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F038C94226C6330300AA1CB3 /* RidesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesDataModel.swift; sourceTree = "<group>"; };
+		F038C94626C63CC800AA1CB3 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		F039C91626CB678B00193D1C /* WayPointTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayPointTableViewCell.swift; sourceTree = "<group>"; };
+		F039C91926CB6AE400193D1C /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		F08CC31126C83B7F00DF5530 /* RidesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesListView.swift; sourceTree = "<group>"; };
+		F08CC31526C8428300DF5530 /* RidesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesTableViewCell.swift; sourceTree = "<group>"; };
+		F08CC31A26C84CF500DF5530 /* RidesTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesTableViewHeaderView.swift; sourceTree = "<group>"; };
+		F08CC32126C991B900DF5530 /* RideDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetailsView.swift; sourceTree = "<group>"; };
+		F08CC32426C991D600DF5530 /* RideDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +78,82 @@
 		F038C91A26C623E000AA1CB3 /* RideChecker */ = {
 			isa = PBXGroup;
 			children = (
+				F038C94526C63C9B00AA1CB3 /* Extensions */,
+				F038C93826C62DB800AA1CB3 /* NetworkHelpers */,
+				F038C93726C62DAE00AA1CB3 /* Models */,
+				F038C93626C62DA700AA1CB3 /* Views */,
+				F038C93526C62D9900AA1CB3 /* Controllers */,
 				F038C91B26C623E000AA1CB3 /* AppDelegate.swift */,
 				F038C91D26C623E000AA1CB3 /* SceneDelegate.swift */,
-				F038C93226C6268100AA1CB3 /* RidesListViewController.swift */,
 				F038C92426C623E500AA1CB3 /* Assets.xcassets */,
 				F038C92626C623E500AA1CB3 /* LaunchScreen.storyboard */,
 				F038C92926C623E500AA1CB3 /* Info.plist */,
 			);
 			path = RideChecker;
+			sourceTree = "<group>";
+		};
+		F038C93526C62D9900AA1CB3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F038C93226C6268100AA1CB3 /* RidesListViewController.swift */,
+				F08CC32426C991D600DF5530 /* RideDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F038C93626C62DA700AA1CB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F08CC31926C84CCE00DF5530 /* HeaderViews */,
+				F08CC31426C8426300DF5530 /* Cells */,
+				F08CC31126C83B7F00DF5530 /* RidesListView.swift */,
+				F08CC32126C991B900DF5530 /* RideDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F038C93726C62DAE00AA1CB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F038C94226C6330300AA1CB3 /* RidesDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F038C93826C62DB800AA1CB3 /* NetworkHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				F038C93A26C62E3C00AA1CB3 /* RideCheckerApiClient.swift */,
+				F038C93F26C631E800AA1CB3 /* DataManager.swift */,
+			);
+			path = NetworkHelpers;
+			sourceTree = "<group>";
+		};
+		F038C94526C63C9B00AA1CB3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F038C94626C63CC800AA1CB3 /* StringExtensions.swift */,
+				F039C91926CB6AE400193D1C /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F08CC31426C8426300DF5530 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F08CC31526C8428300DF5530 /* RidesTableViewCell.swift */,
+				F039C91626CB678B00193D1C /* WayPointTableViewCell.swift */,
+				F02C370B26CC8DF90008836C /* AddressCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F08CC31926C84CCE00DF5530 /* HeaderViews */ = {
+			isa = PBXGroup;
+			children = (
+				F08CC31A26C84CF500DF5530 /* RidesTableViewHeaderView.swift */,
+			);
+			path = HeaderViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +226,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				F038C91C26C623E000AA1CB3 /* AppDelegate.swift in Sources */,
+				F02C370C26CC8DF90008836C /* AddressCell.swift in Sources */,
+				F038C94026C631E800AA1CB3 /* DataManager.swift in Sources */,
+				F039C91726CB678B00193D1C /* WayPointTableViewCell.swift in Sources */,
 				F038C93326C6268100AA1CB3 /* RidesListViewController.swift in Sources */,
+				F08CC32526C991D600DF5530 /* RideDetailsViewController.swift in Sources */,
+				F08CC32226C991B900DF5530 /* RideDetailsView.swift in Sources */,
+				F038C94726C63CC800AA1CB3 /* StringExtensions.swift in Sources */,
+				F08CC31226C83B7F00DF5530 /* RidesListView.swift in Sources */,
+				F039C91A26CB6AE400193D1C /* UIView+Extension.swift in Sources */,
+				F08CC31626C8428300DF5530 /* RidesTableViewCell.swift in Sources */,
+				F038C94326C6330300AA1CB3 /* RidesDataModel.swift in Sources */,
 				F038C91E26C623E000AA1CB3 /* SceneDelegate.swift in Sources */,
+				F038C93B26C62E3C00AA1CB3 /* RideCheckerApiClient.swift in Sources */,
+				F08CC31B26C84CF500DF5530 /* RidesTableViewHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
