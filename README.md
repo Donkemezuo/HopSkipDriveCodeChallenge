@@ -1,3 +1,4 @@
+![Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-17 at 21 09 12](https://user-images.githubusercontent.com/43887215/129825348-74e8db01-3bcd-495f-8564-f09fe2c04044.png)
 # HopSkipDriveCodeChallenge
 A code challenge from HopSkipDrive to develop a user-friendly iOS mobile app that displays a drivers rides
 
@@ -16,7 +17,7 @@ When the driver clicks a ride, it navigates to a detail view which shows the fol
 
 
 See images below; 
-![Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-17 at 20 53 09](https://user-images.githubusercontent.com/43887215/129823994-7ed56412-7c48-496b-b726-ce7152fc740c.png)
+![Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-17 at 21 09 41](https://user-images.githubusercontent.com/43887215/129825383-65b0a3ab-d3fa-442c-bd0a-d9f89f28e888.png)
 
-![Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-17 at 20 53 17](https://user-images.githubusercontent.com/43887215/129824015-af1ec289-34e9-4868-8ed9-8b4eac74d78c.png)
+![Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-17 at 21 10 00](https://user-images.githubusercontent.com/43887215/129825417-d5610700-33a4-4826-91be-20c5435b2737.png)
 
