@@ -1,4 +1,3 @@
-![Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-17 at 21 09 12](https://user-images.githubusercontent.com/43887215/129825348-74e8db01-3bcd-495f-8564-f09fe2c04044.png)
 # HopSkipDriveCodeChallenge
 A code challenge from HopSkipDrive to develop a user-friendly iOS mobile app that displays a drivers rides
 
